@@ -15,8 +15,8 @@ function sendMessage(message){
     $("#robinSendMessage > input[type='submit']").click();
 }
 
+// Auto votes grow
 setTimeout(function(){
-    
     sendMessage("/vote grow");
     setTimeout(function(){
         window.location.reload();
@@ -24,7 +24,7 @@ setTimeout(function(){
     
 }, 5000);
 
-# Brain Power Spam Here (can be deleted if you'd like)
+// Brain Power Spam Here (can be deleted if you'd like)
 setInterval(function(){
     sendMessage("O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA")    
 }, 10000);
